@@ -1,117 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>芮颖霄个人网页</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    nav {
-      background-color: #333;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 1rem;
-    }
-
-    main {
-      padding: 2rem;
-      margin: 2rem;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杭州芮颖霄 - 个人网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #e7e7e7;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003366;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .icp-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>芮颖霄的个人网页</h1>
-  </header>
-  <nav>
-    <a href="#about">个人简介</a>
-    <a href="#experience">工作经历</a>
-    <a href="#education">教育背景</a>
-    <a href="#contact">联系方式</a>
-  </nav>
-  <main>
-    <div class="container">
-      <section id="about">
-        <h2>个人简介</h2>
-        <p>大家好，我是芮颖霄！</p>
-        <p>我毕业于浙江理工大学，获得伊芙丽教授学位。毕业后投身于服装行业，主要从事人资工作。</p>
-      </section>
-
-      <section id="experience">
-        <h2>工作经历</h2>
-        <h3>公司名称1</h3>
-        <p>职位名称</p>
-        <p>工作时间</p>
-        <p>工作内容描述...</p>
-        <h3>公司名称2</h3>
-        <p>职位名称</p>
-        <p>工作时间</p>
-        <p>工作内容描述...</p>
-      </section>
-
-      <section id="education">
-        <h2>教育背景</h2>
-        <h3>浙江理工大学</h3>
-        <p>计算机科学学士</p>
-        <p>学习时间</p>
-        <p>所学专业课程...</p>
-      </section>
-
-      <section id="contact">
-        <h2>联系方式</h2>
-        <p>邮箱：zhangjianwei@email.com</p>
-        <p>电话：123456789</p>
-        <p>地址：杭州市临平区</p>
-      </section>
-    </div>
-  </main>
-  <footer>
-    <p>© 2025 所有权利保留</p>
-    <p>联系方式：zhangjianwei@email.com</p>
-  </footer>
+    <header>
+        <h1>杭州芮颖霄 - 个人网站</h1>
+    </header>
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">关于</a>
+        <a href="#">服务</a>
+        <a href="#">联系我们</a>
+    </nav>
+    <main>
+        <div class="content">
+            <img src="https://via.placeholder.com/800x200?text=欢迎访问杭州芮颖霄网站" alt="欢迎图片">
+            <p>欢迎访问杭州芮颖霄的个人网站！这里是展示个人作品、服务以及联系方式的平台。</p>
+        </div>
+    </main>
+    <footer>
+        <div class="icp-info">
+            <p>© 2024 杭州芮颖霄 - 个人网站</p>
+            <p>网站标识码：1234567890</p>
+            <p>浙ICP备 1234567890号-1 | 浙公网安备 1234567890号</p>
+        </div>
+    </footer>
 </body>
 </html>
